@@ -123,6 +123,11 @@ public class GamePanel extends JPanel{
         
         bottomPanel.add(messagePanel, BorderLayout.SOUTH);
 
+        // adding name at bottom
+        JPanel namePanel = new JPanel();
+        namePanel.add(new JLabel("Neehru Tumber, 2024"), BorderLayout.CENTER);
+        add(namePanel, BorderLayout.SOUTH);
+
         this.addListeners();
         selectPanel.addListeners();
 
