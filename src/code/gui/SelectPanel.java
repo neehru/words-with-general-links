@@ -129,7 +129,6 @@ public class SelectPanel extends JPanel {
                 for (int i = 0; i < 4; i++){
                     parentPanel.game.fourLinkNums[i][1] = 0;
                 }
-                parentPanel.game.currentGameWords.clear();
                 parentPanel.game.currentGameWords = parentPanel.game.finalCurrentGameWords;
                 parentPanel.game.reorderCurrentGameWords();
             }
