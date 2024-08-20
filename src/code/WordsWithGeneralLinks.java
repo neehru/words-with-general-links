@@ -31,8 +31,8 @@ public class WordsWithGeneralLinks {
                         words[i-1] = lineArray[i];
                     }
                     linkMap.putLink(link, words);
-                    line = br.readLine();
                 }
+                line = br.readLine();
             }
             br.close();
         } catch (FileNotFoundException e) {
