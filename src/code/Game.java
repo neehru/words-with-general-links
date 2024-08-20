@@ -29,6 +29,10 @@ public class Game{
             allGameLinks.add(s);
         }
 
+        if (allGameLinks.size() < 4) {
+            System.err.println("Not enough game links");
+        }
+
         for (int i = 0; i < 4; i++){
             fourLinkNums[i][0] = allGameLinks.size();
         }
