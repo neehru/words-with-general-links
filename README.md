@@ -34,5 +34,5 @@ Locate src/resources/links.txt and add to the file using the format:<br/>
 Make sure each link and its corresponding words take up one line. If a line contains more than 5 words or phrases separated by commas that line will be ignored. If there are less than 4 valid links with corresponding words an error message will appear and the game will be unable to run.<br/>
 
 <h2>Contact</h2>
-Neehru Tumber - neehru25.tumber@gmail.com<br/>
+Neehru Tumber - neehrutumber3@gmail.com<br/>
 Project Link - https://github.com/neehru/words-with-general-links
